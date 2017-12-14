@@ -14,51 +14,51 @@ body {
     width: calc(100% - 20%);
 }
 
-#header {
-}
 #header h1 {
     text-align: center;
 }
 
 #header h1 img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
 
 #nav {
     border-bottom: solid 1px #cccccc;
 }
+
 #nav ul {
     text-align: right;
 }
+
 #nav ul li {
     display: inline;
 }
 
 #sidebar {
-    width: 20%;
     float: left;
+    width: 20%;
 }
 
 #article {
-    width: calc(100% - 20%);
     float: left;
+    width: calc(100% - 20%);
 }
 
 #article h2 {
-    font-weight: bold;
     border-bottom: solid 2px #bbbbbb;
     border-left: solid 5px #bbbbbb;
-    padding-left:5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left:5px;
 }
 
 #article h3 {
+    border-bottom: 1px dashed #bbbbbb;
     font-weight:bold;
     margin: 15px 5px 5px 0;
-    border-bottom: 1px dashed #bbbbbb;
 }
 
 #article p {
@@ -66,20 +66,21 @@ body {
 }
 
 #article p img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
 
 #article table {
-    border-collapse: collapse;
     border:1px solid #333333;
+    border-collapse: collapse;
 }
 
 #article table th {
+    background-color: #eeeeee;
     border: 1px solid #cccccc;
     padding: 4px;
-    background-color: #eeeeee;
 }
+
 #article table td {
     border: 1px solid #cccccc;
     padding:4px;
@@ -87,9 +88,10 @@ body {
 
 
 #footer {
-    clear: both;
     border-top: solid 1px #cccccc;
+    clear: both;
 }
+
 #footer p {
     padding: 10px;
     text-align: center;
