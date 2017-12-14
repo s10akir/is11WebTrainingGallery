@@ -3,6 +3,7 @@
 @import 'reset.css'; /* スタイルを初期化 */
 
 body {
+    background-color: #eee;
 }
 
 #wrap {
