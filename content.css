@@ -20,10 +20,13 @@ body {
 }
 
 #nav {
+    border-bottom: solid 1px #ccc;
 }
 #nav ul {
+    text-align: right;
 }
 #nav ul li {
+    display: inline;
 }
 
 #sidebar {
