@@ -31,9 +31,13 @@ body {
 }
 
 #sidebar {
+    width: 200px;
+    float: left;
 }
 
 #article {
+    width: calc(100% - 200px);
+    float: left;
 }
 
 #article h2 {
