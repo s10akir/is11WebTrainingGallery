@@ -7,6 +7,10 @@ body {
 }
 
 #wrap {
+    background: #fff;
+    border-radius: 20px;
+    margin: auto;
+    width: calc(100% - 20%);
 }
 
 #header {
