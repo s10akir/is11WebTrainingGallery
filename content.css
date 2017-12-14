@@ -3,11 +3,11 @@
 @import 'reset.css'; /* スタイルを初期化 */
 
 body {
-    background-color: #eee;
+    background-color: #eeeeee;
 }
 
 #wrap {
-    background: #fff;
+    background: #ffffff;
     border-radius: 20px;
     margin: auto;
     padding: 0 50px;
@@ -26,7 +26,7 @@ body {
 }
 
 #nav {
-    border-bottom: solid 1px #ccc;
+    border-bottom: solid 1px #cccccc;
 }
 #nav ul {
     text-align: right;
@@ -47,8 +47,8 @@ body {
 
 #article h2 {
     font-weight: bold;
-    border-bottom: solid 2px #bbb;
-    border-left: solid 5px #bbb;
+    border-bottom: solid 2px #bbbbbb;
+    border-left: solid 5px #bbbbbb;
     padding-left:5px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -58,7 +58,7 @@ body {
 #article h3 {
     font-weight:bold;
     margin: 15px 5px 5px 0;
-    border-bottom: 1px dashed #bbb;
+    border-bottom: 1px dashed #bbbbbb;
 }
 
 #article p {
@@ -72,23 +72,23 @@ body {
 
 #article table {
     border-collapse: collapse;
-    border:1px solid #333;
+    border:1px solid #333333;
 }
 
 #article table th {
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     padding: 4px;
     background-color: #eeeeee;
 }
 #article table td {
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     padding:4px;
 }
 
 
 #footer {
     clear: both;
-    border-top: solid 1px #ccc;
+    border-top: solid 1px #cccccc;
 }
 #footer p {
     padding: 10px;
