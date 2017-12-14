@@ -36,12 +36,12 @@ body {
 }
 
 #sidebar {
-    width: 200px;
+    width: 20%;
     float: left;
 }
 
 #article {
-    width: calc(100% - 200px);
+    width: calc(100% - 20%);
     float: left;
 }
 
