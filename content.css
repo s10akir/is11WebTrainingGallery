@@ -1,5 +1,7 @@
 /* CSS Document */
 
+@import 'reset.css'; /* スタイルを初期化 */
+
 body {
 }
 
